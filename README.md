@@ -1,5 +1,5 @@
 # blockly-webpack-typescript
-Most simple blockly application with Webpack and TypeScript
+Most simple blockly application with Webpack and TypeScript however it supports debugging, reload, build and two TypeScript files
 
 `
 npm install
