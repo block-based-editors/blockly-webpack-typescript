@@ -1,0 +1,2 @@
+(()=>{"use strict";const o=Blockly,c=document.getElementById("blocklyDiv"),e={toolbox:{kind:"categoryToolbox",contents:[{kind:"category",name:"Logic",contents:[{kind:"block",type:"controls_if"},{kind:"block",type:"logic_compare"}]}]},zoom:{controls:!0,wheel:!0,startScale:1,maxScale:3,minScale:.3,scaleSpeed:1.2},trashcan:!0};if(c){const t=o.inject(c,e);console.log(t)}})();
+//# sourceMappingURL=bundle.js.map
