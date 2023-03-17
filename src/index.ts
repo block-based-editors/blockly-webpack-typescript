@@ -1,5 +1,9 @@
 import * as Blockly from 'blockly';
 
+import { logMessage } from './example';
+
+logMessage('Hello World!');
+
 const workspaceContainer = document.getElementById('blocklyDiv');
  
 // Define the options for the workspace
