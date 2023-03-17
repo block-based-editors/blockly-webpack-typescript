@@ -2,6 +2,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/example.ts":
+/*!************************!*\
+  !*** ./src/example.ts ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "logMessage": () => (/* binding */ logMessage)
+/* harmony export */ });
+function logMessage(message) {
+    console.log(message);
+}
+
+
+/***/ }),
+
 /***/ "blockly":
 /*!**************************!*\
   !*** external "Blockly" ***!
@@ -89,7 +106,10 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var blockly__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! blockly */ "blockly");
 /* harmony import */ var blockly__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(blockly__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _example__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./example */ "./src/example.ts");
 
+
+(0,_example__WEBPACK_IMPORTED_MODULE_1__.logMessage)('Hello World!');
 const workspaceContainer = document.getElementById('blocklyDiv');
 // Define the options for the workspace
 const workspaceOptions = {
@@ -132,4 +152,4 @@ if (workspaceContainer) {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle.js.map
+//# sourceMappingURL=index.js.map
